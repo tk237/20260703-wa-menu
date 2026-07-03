@@ -1,0 +1,14 @@
+@charset "utf-8";
+.sweets{
+    margin: 16px 0;
+    font-size: 80px;
+}
+
+button{
+    margin-right: 8px;
+    padding: 8px 16px;
+}
+
+body{
+    background: rgb(245, 231, 255);
+}

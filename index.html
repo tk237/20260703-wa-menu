@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>メニュー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h2>メニュー</h2>
+        <p class="menu">{{ name }}</p>
+        <p>{{ description }}</p>
+
+        <button @click="showSweets('shortcake')">ショートケーキ</button>
+        <button @click="showSweets('applepie')">アップルパイ</button>
+        <button @click="showSweets('pancakes')">パンケーキ</button>
+
+    </div>
+    
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
